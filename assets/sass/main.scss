@@ -1,0 +1,20 @@
+//Abstracts
+@import "sass/abstracts/mixins"; 
+@import "sass/abstracts/variables";
+
+//Base
+@import "sass/base/base";
+@import "sass/base/reset";
+@import "sass/base/typography"; 
+
+//Components
+@import "sass/components/buttons";
+@import "sass/components/inputs"; 
+
+//Layout
+@import "sass/layout/forms";
+@import "sass/layout/header";
+@import "sass/layout/main-section";
+
+//Vendors
+@import "sass/vendors/bootstrap-4.5.0/bootstrap.scss"

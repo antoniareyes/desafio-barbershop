@@ -1,0 +1,37 @@
+.main {
+    position: absolute;
+    left: 50%;
+    top: 9.5vh;
+    transform: translateX(-50%);
+}
+.main__container {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__title {
+    color: $white;
+    text-align: center;
+}
+.main__title-emphasis {
+    font-family: $playfair;
+    font-weight: $regular;
+}
+.main__title-emphasis_size-xxl {
+    font-size: $xx-large;
+}
+.main__button {
+    margin: -20px;
+}
+.imgRedonda {
+    width: 220px;
+    height: 220px;
+    border-radius: 200px;
+}
+.naomi-thai{
+    font-family: 'playfair-display', cursive;
+    font-size: $x-large;  
+    line-height: 80%;
+}
+ 
